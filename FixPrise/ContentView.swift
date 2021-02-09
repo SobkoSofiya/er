@@ -55,11 +55,11 @@ struct ContentView: View {
                     }
                     VStack(spacing:20){
                         HStack{
-                        TextField("Пароль", text: $nam) .frame(width: UIScreen.main.bounds.width-60, height: 1, alignment: .center)
+                        TextField("Пароль", text: $pass) .frame(width: UIScreen.main.bounds.width-60, height: 1, alignment: .center)
                             Image("e").resizable().frame(width: 20, height: 20, alignment: .center)
                         }
                         Rectangle()
-                            .frame(width: UIScreen.main.bounds.width-30, height: 1, alignment: .center).foregroundColor(.gray).opacity(0.2).offset( y: -15)
+                            .frame(width: UIScreen.main.bounds.width-30, height: 1, alignment: .center).foregroundColor(.gray).opacity(0.2).offset( y: -10)
                     }
                     ZStack{
                         RoundedRectangle(cornerRadius: 20).frame(width: 310, height: 80, alignment: .center).foregroundColor(Color("gren"))
