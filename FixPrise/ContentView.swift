@@ -68,7 +68,7 @@ struct ContentView: View {
                         
                     }
                     Text("Забыли пароль?").foregroundColor(Color("bu")).font(.custom("", size: 18)).offset( y: -20)
-                }.offset( y: 30)
+                }.offset( y: 40)
                 Spacer()
             }
         }.edgesIgnoringSafeArea(.all)
