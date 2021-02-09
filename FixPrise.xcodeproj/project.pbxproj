@@ -13,6 +13,7 @@
 		C3724B9725D26CD500473FB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3724B9625D26CD500473FB8 /* Preview Assets.xcassets */; };
 		C3724BA225D26CD500473FB8 /* FixPriseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3724BA125D26CD500473FB8 /* FixPriseTests.swift */; };
 		C3724BAD25D26CD500473FB8 /* FixPriseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3724BAC25D26CD500473FB8 /* FixPriseUITests.swift */; };
+		C3724BBE25D26DA100473FB8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3724BBD25D26DA100473FB8 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C3724BA825D26CD500473FB8 /* FixPriseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixPriseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3724BAC25D26CD500473FB8 /* FixPriseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixPriseUITests.swift; sourceTree = "<group>"; };
 		C3724BAE25D26CD500473FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3724BBD25D26DA100473FB8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				C3724B9625D26CD500473FB8 /* Preview Assets.xcassets */,
+				C3724BBD25D26DA100473FB8 /* Launch Screen.storyboard */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3724BBE25D26DA100473FB8 /* Launch Screen.storyboard in Resources */,
 				C3724B9725D26CD500473FB8 /* Preview Assets.xcassets in Resources */,
 				C3724B9425D26CD500473FB8 /* Assets.xcassets in Resources */,
 			);
